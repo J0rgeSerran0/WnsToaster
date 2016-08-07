@@ -17,7 +17,7 @@
         {
             try
             {
-                var notificationSender = new NotificationSender(this.txtSecret.Text, this.txtSid.Text);
+                var notificationSender = new NotificationHubSender(this.txtSecret.Text, this.txtSid.Text);
 
                 var notificationModel = new NotificationModel() { ChannelUri = this.txtChannelUri.Text, XmlMessage = this.txtNotification.Text };
 

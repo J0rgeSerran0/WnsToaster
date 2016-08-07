@@ -1,0 +1,11 @@
+C:\GitHub\WnsToaster\ClientNotificationSender\bin\Debug\ClientNotificationSender.exe.config
+C:\GitHub\WnsToaster\ClientNotificationSender\bin\Debug\ClientNotificationSender.exe
+C:\GitHub\WnsToaster\ClientNotificationSender\bin\Debug\ClientNotificationSender.pdb
+C:\GitHub\WnsToaster\ClientNotificationSender\bin\Debug\NotificationHub.dll
+C:\GitHub\WnsToaster\ClientNotificationSender\bin\Debug\NotificationHub.pdb
+C:\GitHub\WnsToaster\ClientNotificationSender\obj\Debug\ClientNotificationSender.csprojResolveAssemblyReference.cache
+C:\GitHub\WnsToaster\ClientNotificationSender\obj\Debug\ClientNotificationSender.MainForm.resources
+C:\GitHub\WnsToaster\ClientNotificationSender\obj\Debug\ClientNotificationSender.Properties.Resources.resources
+C:\GitHub\WnsToaster\ClientNotificationSender\obj\Debug\ClientNotificationSender.csproj.GenerateResource.Cache
+C:\GitHub\WnsToaster\ClientNotificationSender\obj\Debug\ClientNotificationSender.exe
+C:\GitHub\WnsToaster\ClientNotificationSender\obj\Debug\ClientNotificationSender.pdb

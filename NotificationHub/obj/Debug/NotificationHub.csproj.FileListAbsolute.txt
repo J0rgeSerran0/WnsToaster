@@ -1,0 +1,5 @@
+C:\GitHub\WnsToaster\NotificationHub\bin\Debug\NotificationHub.dll
+C:\GitHub\WnsToaster\NotificationHub\bin\Debug\NotificationHub.pdb
+C:\GitHub\WnsToaster\NotificationHub\obj\Debug\NotificationHub.csprojResolveAssemblyReference.cache
+C:\GitHub\WnsToaster\NotificationHub\obj\Debug\NotificationHub.dll
+C:\GitHub\WnsToaster\NotificationHub\obj\Debug\NotificationHub.pdb

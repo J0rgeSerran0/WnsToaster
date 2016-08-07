@@ -9,7 +9,7 @@
     using System.Text;
     using System.Web;
 
-    public class NotificationSender
+    public class NotificationHubSender
     {
 
         private OAuthToken oAuthToken = null;
@@ -37,7 +37,7 @@
         private const string LIVE_ADDRESS_AUTHENTICATION = "https://login.live.com/accesstoken.srf";
 
 
-        public NotificationSender(string secret, string sid)
+        public NotificationHubSender(string secret, string sid)
         {
             if (String.IsNullOrEmpty(secret) || String.IsNullOrEmpty(sid))
             {
@@ -58,12 +58,14 @@
             string response = String.Empty;
             string requestParameters = String.Format(BODY, urlEncodedSid, urlEncodedSecret);
 
+            // Get access token
             using (var client = new WebClient())
             {
                 client.Headers.Add("Content-Type", CONTENT_TYPE_APPLICATION_FORM_URLENCODED);
                 response = client.UploadString(LIVE_ADDRESS_AUTHENTICATION, requestParameters);
             }
 
+            // Get the OAuthToken from the Json response
             using (var memoryStream = new MemoryStream(Encoding.Unicode.GetBytes(response)))
             {
                 var serializer = new DataContractJsonSerializer(typeof(OAuthToken));
