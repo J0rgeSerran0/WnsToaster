@@ -1,9 +1,9 @@
 #WnsToaster
 
 ## Description
-Library to send notifications quickly through WNS (Windows Push Notification Service).
+Little library to send toast push notifications quickly through WNS (Windows Push Notification Service).
 
-The solution includes a library and an application to test the service that can be used to know how we have to use the library.
+The solution includes a library and an application to test the library using the service to send push notifications.
 
 
 ##Client Notification Sender tester in execution
